@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Microsoft.Data.Sqlite.WinRT</id>
+        <version>1.0.0</version>
+        <title>Microsoft.Data.Sqlite for WinRT</title>
+        <authors>TheBlueSky</authors>
+        <owners>.NET Foundation</owners>
+        <projectUrl>https://github.com/TheBlueSky/Microsoft.Data.Sqlite.WinRT</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>SQLite implementation of the System.Data.Common provider model modified to support WinRT for Windows 8.1 and Windows Phone 8.1.
+Also includes .NET Core implementation of System.Data.Common modified to support WinRT for Windows 8.1 and Windows Phone 8.1.</description>
+        <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+        <tags>System.Data SQLite ADO.NET</tags>
+    </metadata>
+    <files>
+        <file src="artifacts\Microsoft.Data.Sqlite.dll" target="lib\portable-win81+wpa81\Microsoft.Data.Sqlite.dll" />
+        <file src="artifacts\System.Data.Common.dll" target="lib\portable-win81+wpa81\System.Data.Common.dll" />
+    </files>
+</package>
