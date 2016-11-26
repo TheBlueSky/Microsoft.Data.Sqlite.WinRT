@@ -1,8 +1,7 @@
 ﻿<#
     var dllNames = new[]
     {
-        "sqlite3",
-        "winsqlite3"
+        "sqlite3"
     };
 #>
 // Copyright (c) .NET Foundation. All rights reserved.
